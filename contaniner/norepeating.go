@@ -8,16 +8,17 @@ func main() {
 		lengthOfNonRepeatingSubStr("abcdefg"),
 		lengthOfNonRepeatingSubStr("aa"),
 		lengthOfNonRepeatingSubStr(""),
+		lengthOfNonRepeatingSubStr("我爱我家"),
 		)
 }
 
 func lengthOfNonRepeatingSubStr(s string) int  {
-	lastOcur := make(map[byte]int)
+	lastOcur := make(map[rune]int)
 	start := 0
 	maxLength := 0
 
 	//map 是使用哈希表的，key可以比较相等
-	for i, ch := range []byte(s) {
+	for i, ch := range []rune(s) {
 
 		//判断有没有这个Key
 		if lastI, ok := lastOcur[ch]; ok &&  lastI >= start {
