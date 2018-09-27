@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10906a6c-4ca7-41e9-a637-490fa2d612d2" name="Default Changelist" comment="" />
+    <list default="true" id="10906a6c-4ca7-41e9-a637-490fa2d612d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contaniner/norepeating.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basic/abc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/contaniner/arrays.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/basic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/branch.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/branch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loop.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/loop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliceops.go" beforeDir="false" afterPath="$PROJECT_DIR$/contaniner/sliceops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/contaniner/slices.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,25 +32,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="7" />
+          <entry key="go" value="9" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="7" />
+          <entry key="Go" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="3649" />
+          <entry key="go" value="4305" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3649" />
+          <entry key="Go" value="4305" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -48,7 +59,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic.go">
+        <entry file="file://$PROJECT_DIR$/basic/basic.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
@@ -57,7 +68,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/branch.go">
+        <entry file="file://$PROJECT_DIR$/basic/branch.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
               <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
@@ -69,7 +80,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loop.go">
+        <entry file="file://$PROJECT_DIR$/basic/loop.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
@@ -78,7 +89,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/func.go">
+        <entry file="file://$PROJECT_DIR$/basic/func.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="947">
               <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
@@ -87,7 +98,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrays.go">
+        <entry file="file://$PROJECT_DIR$/contaniner/arrays.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
               <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
@@ -96,7 +107,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slices.go">
+        <entry file="file://$PROJECT_DIR$/contaniner/slices.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="431">
               <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="19" />
@@ -104,17 +115,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sliceops.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contaniner/sliceops.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="161">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abc.txt">
+        <entry file="file://$PROJECT_DIR$/contaniner/maps.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contaniner/norepeating.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/abc.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
@@ -132,6 +161,9 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -143,6 +175,9 @@
         <option value="$PROJECT_DIR$/arrays.go" />
         <option value="$PROJECT_DIR$/slices.go" />
         <option value="$PROJECT_DIR$/sliceops.go" />
+        <option value="$PROJECT_DIR$/maps.go" />
+        <option value="$PROJECT_DIR$/norepeating.go" />
+        <option value="$PROJECT_DIR$/contaniner/norepeating.go" />
       </list>
     </option>
   </component>
@@ -153,10 +188,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1165" />
-    <option name="y" value="70" />
+    <option name="x" value="879" />
+    <option name="y" value="160" />
     <option name="width" value="1400" />
     <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -196,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build sliceops.go">
+  <component name="RunManager" selected="Go Build.go build norepeating.go">
     <configuration name="go build arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project_google_gostudy" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -207,22 +245,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project_google_gostudy" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/func.go" />
+      <filePath value="$PROJECT_DIR$/maps.go" />
       <package value="project_google_gostudy" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build norepeating.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="project_google_gostudy" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/loop.go" />
+      <filePath value="$PROJECT_DIR$/norepeating.go" />
       <package value="project_google_gostudy" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -248,38 +286,37 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build loop.go" />
-      <item itemvalue="Go Build.go build func.go" />
       <item itemvalue="Go Build.go build arrays.go" />
       <item itemvalue="Go Build.go build slices.go" />
       <item itemvalue="Go Build.go build sliceops.go" />
+      <item itemvalue="Go Build.go build maps.go" />
+      <item itemvalue="Go Build.go build norepeating.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build norepeating.go" />
+        <item itemvalue="Go Build.go build maps.go" />
         <item itemvalue="Go Build.go build sliceops.go" />
         <item itemvalue="Go Build.go build slices.go" />
         <item itemvalue="Go Build.go build arrays.go" />
-        <item itemvalue="Go Build.go build func.go" />
-        <item itemvalue="Go Build.go build loop.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="965" y="48" width="1400" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="879" y="160" width="1400" height="977" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25447762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25447762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27455622" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2748815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -295,14 +332,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic.go">
+    <entry file="file://$PROJECT_DIR$/basic/basic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/branch.go">
+    <entry file="file://$PROJECT_DIR$/basic/branch.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
@@ -312,45 +349,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrays.go">
+    <entry file="file://$PROJECT_DIR$/contaniner/arrays.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abc.txt">
+    <entry file="file://$PROJECT_DIR$/basic/abc.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loop.go">
+    <entry file="file://$PROJECT_DIR$/basic/loop.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func.go">
+    <entry file="file://$PROJECT_DIR$/basic/func.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="947">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slices.go">
+    <entry file="file://$PROJECT_DIR$/contaniner/slices.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sliceops.go">
+    <entry file="file://$PROJECT_DIR$/contaniner/sliceops.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="161">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contaniner/maps.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contaniner/norepeating.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
