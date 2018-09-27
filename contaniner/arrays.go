@@ -1,4 +1,4 @@
-package contaniner
+package main
 
 import "fmt"
 
