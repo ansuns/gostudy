@@ -23,8 +23,20 @@ func TestNonrepeating(t *testing.T) {
 	for _, tt := range test {
 		actual := length0fNonRepeatingSubStr(tt.s);
 		if actual != tt.ans {
-			t.Errorf("got %d for input %s; " +
+			t.Errorf("got %d for input %s; "+
 				"expect %d", actual, tt.s, tt.ans)
+		}
+	}
+}
+
+func BenchmarkSubstr(b *testing.B) {
+	s := "黑化肥挥发发灰会花飞灰化肥挥发发黑会飞花，"
+	ans := 8
+	for i := 0; i < b.N; i++ {
+		actual := length0fNonRepeatingSubStr(s)
+		if actual != ans {
+			b.Errorf("got %d for input %s; "+
+				"expect %d", actual, s, ans)
 		}
 	}
 }
