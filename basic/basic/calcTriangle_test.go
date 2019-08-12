@@ -9,6 +9,7 @@ func TestTriangle(t *testing.T) {
 		{8, 15, 17},
 		{12, 35, 37},
 		{30000, 40000, 50000},
+		{-310000, 40000, 50000},
 	}
 
 	for _, tt := range tests {
