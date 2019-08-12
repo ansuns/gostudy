@@ -52,12 +52,23 @@ func euler() {
 }
 
 //类型转换是强制的
-func triangle() {
+/*func triangle() {
 	var a, b int = 3, 4
 	var c int
 	//显式转换int()
 	c = int(math.Sqrt(float64(a*a + b*b)))
 	fmt.Println(c)
+}*/
+
+func triangle() {
+	var a, b int = 3, 4
+	fmt.Println(calcTriangle(a, b))
+}
+
+func calcTriangle(a, b int) int {
+	var c int
+	c = int(math.Sqrt(float64(a*a + b*b)))
+	return c
 }
 
 //定义常量
