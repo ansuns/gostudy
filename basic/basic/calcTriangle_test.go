@@ -13,6 +13,7 @@ func TestTriangle(t *testing.T) {
 
 	for _, tt := range tests {
 		if actual := calcTriangle(tt.a, tt.b); actual != tt.c {
+			//汇报错误的接口
 			t.Errorf("caclTriangle (%d, %d); "+
 				"got %d; expected %d", tt.a, tt.b, actual, tt.c)
 		}
