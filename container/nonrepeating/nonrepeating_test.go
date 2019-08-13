@@ -32,6 +32,7 @@ func TestNonrepeating(t *testing.T) {
 func BenchmarkSubstr(b *testing.B) {
 	s := "黑化肥挥发发灰会花飞灰化肥挥发发黑会飞花，"
 	ans := 8
+	b.ResetTimer() //准备数据的开始计算时间重置
 	for i := 0; i < b.N; i++ {
 		actual := length0fNonRepeatingSubStr(s)
 		if actual != ans {
